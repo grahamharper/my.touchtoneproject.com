@@ -1,0 +1,83 @@
+html, body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  /*background: #eee url() repeat;*/
+  height: 100%;
+  margin: 0;
+  padding-top: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+a:hover{
+  color: #666;
+}
+
+h5
+{
+	margin-top:5px;
+}
+
+#logo
+{	
+margin-bottom:20px;
+}
+
+#yoke
+{
+	background:transparent url(../images/shadow.png) no-repeat scroll left bottom;
+	padding:0 0 8px;
+	margin-bottom:10px;
+}
+
+#item
+{
+padding:10px 10px 10px 10px;
+background: #fff;
+color: #fff;
+border-top:1px solid #ccc;
+border-left:1px solid #ccc;
+border-right:1px solid #ccc;
+border-bottom: 0px;
+height:240px;
+  /*-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;*/
+	
+}
+#item img
+{
+	text-align:center;
+}
+
+#item a{
+  color: #666;
+}
+
+.player
+{
+	float:left;
+	margin:10px 0px 0 0;	
+}
+
+.tools
+{
+	float:right;
+	margin:10px 0px 0 0;
+	font-size:12px;
+}
+.icon
+{
+	margin-left:3px;
+}
+
+.icon-download a:link
+{
+	background-image:url(../images/download.png);
+}
+
+.icon-download a:hover
+{
+	background-image:url(../images/downloadON.png);
+}
